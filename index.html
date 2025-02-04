@@ -19,36 +19,38 @@
             </span>Dashboard
         </h2>
         <ul class="sidebar__lista">
-            <li><i class="fa-solid fa-house"></i>Home</li>
-            <li><i class="fa-solid fa-address-card"></i>Profile</li>
-            <li><i class="fa-solid fa-message"></i>Messages</li>
-            <li><i class="fa-solid fa-clock"></i>History</li>
-            <li><i class="fa-solid fa-copy"></i>Tasks</li>
-            <li><i class="fa-solid fa-users"></i>Communities</li>
+            <li><i class="fa-solid fa-house"></i><a href="#">Home</a></li>
+            <li><i class="fa-solid fa-house"></i><a href="#">Profile</a></li>
+            <li><i class="fa-solid fa-message"></i><a href="#">Messages</a></li>
+            <li><i class="fa-solid fa-clock"></i><a href="#">History</a></li>
+            <li><i class="fa-solid fa-copy"></i><a href="#">Tasks</a></li>
+            <li><i class="fa-solid fa-users"></i><a href="#">Communities</a></li>
         </ul>
         <ul class="sidebar__listb">
-            <li><i class="fa-solid fa-gear"></i>Settings</li>
-            <li><i class="fa-solid fa-question"></i>Support</li>
-            <li><i class="fa-solid fa-shield-halved"></i>Privacy</li>
+            <li><i class="fa-solid fa-gear"></i><a href="#">Settings</a></li>
+            <li><i class="fa-solid fa-question"></i><a href="#">Support</a></li>
+            <li><i class="fa-solid fa-shield-halved"></i><a href="#">Privacy</a></li>
         </ul>
     </section>
     <main class="main__content">
         <header class="topbar">
-            <div>
-                <input type="text" placeholder="Search..">
-            </div>
-            <div>
+            <div class="search">
+                <div>
+                    <input type="text" placeholder="Search..">
+                </div>
                 <ul>
-                    <li>bell</li>
+                    <li><i class="fa-solid fa-bell"></i></li>
                     <li><img src="" alt="kitten avatar"></li>
-                    <li><p>Morgan Oakley</p></li>
+                    <li><p class="name">Morgan Oakley</p></li>
                 </ul>
             </div>
-            <div>
+            <div class="topbar__content"> 
                 <div class="user-info">
-                    <p>Hi there,</p>
-                    <img src="" alt="kitten avatar">
-                    <p>Morgan Oakley (@morgan)</p>
+                    <img class="topbar__image" src="https://t3.ftcdn.net/jpg/02/31/17/32/360_F_231173210_stzZNH7tblr3esfej44EpbKqAQfbkfsT.jpg" alt="kitten avatar">
+                    <div class="topbar__greetings">
+                        <p>Hi there,</p>
+                        <p class="name big">Morgan Oakley (@morgan)</p>
+                    </div>
                 </div>
                 <div class="actions">
                     <button>New</button>
@@ -58,114 +60,108 @@
             </div>
         </header>
         <section class="projects">
-            <h2>Your Projects</h2>
             <div class="card__container">
                 <div class="card">
-                    <p>Super Cool Project</p>
+                    <p class="card__title">Super Cool Project</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                         Beatae voluptatibus facere ad rem ab dicta harum, corporis quos dignissimos sit,
                         velit reiciendis adipisci ipsam eum provident, consectetur est? Optio, in.
                     </p>
                 </div>
                 <div class="card">
-                    <p>Super Cool Project</p>
+                    <p class="card__title">Super Cool Project</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                         Beatae voluptatibus facere ad rem ab dicta harum, corporis quos dignissimos sit,
                         velit reiciendis adipisci ipsam eum provident, consectetur est? Optio, in.
                     </p>
                 </div>
                 <div class="card">
-                    <p>Super Cool Project</p>
+                    <p class="card__title">Super Cool Project</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                         Beatae voluptatibus facere ad rem ab dicta harum, corporis quos dignissimos sit,
                         velit reiciendis adipisci ipsam eum provident, consectetur est? Optio, in.
                     </p>
                 </div>
                 <div class="card">
-                    <p>Super Cool Project</p>
+                    <p class="card__title">Super Cool Project</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                         Beatae voluptatibus facere ad rem ab dicta harum, corporis quos dignissimos sit,
                         velit reiciendis adipisci ipsam eum provident, consectetur est? Optio, in.
                     </p>
                 </div>
                 <div class="card">
-                    <p>Super Cool Project</p>
+                    <p class="card__title">Super Cool Project</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                         Beatae voluptatibus facere ad rem ab dicta harum, corporis quos dignissimos sit,
                         velit reiciendis adipisci ipsam eum provident, consectetur est? Optio, in.
                     </p>
                 </div>
                 <div class="card">
-                    <p>Super Cool Project</p>
+                    <p class="card__title">Super Cool Project</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                         Beatae voluptatibus facere ad rem ab dicta harum, corporis quos dignissimos sit,
                         velit reiciendis adipisci ipsam eum provident, consectetur est? Optio, in.
                     </p>
                 </div>
-                <div class="card">
-                    <p>Super Cool Project</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                        Beatae voluptatibus facere ad rem ab dicta harum, corporis quos dignissimos sit,
-                        velit reiciendis adipisci ipsam eum provident, consectetur est? Optio, in.
-                    </p>
-                </div>
+                
             </div>
+            <aside class="announcements">
+                <div>
+                    <h3>Announcements</h3>
+                    <div>
+                        <p>Site Maintenance</p>
+                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Necessitatibus porro id cum inventore officia quis provident doloribus ullam odio consequuntur.
+                        </p>
+                    </div>
+                    <div>
+                        <p>Site Maintenance</p>
+                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Necessitatibus porro id cum inventore officia quis provident doloribus ullam odio consequuntur.
+                        </p>
+                    </div>
+                    <div>
+                        <p>Site Maintenance</p>
+                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Necessitatibus porro id cum inventore officia quis provident doloribus ullam odio consequuntur.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <h3>Trending</h3>
+                    <div>
+                        <img src="" alt="">
+                        <div>
+                            <p>@tegan</p>
+                            <p>World Peace Builder</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="" alt="">
+                        <div>
+                            <p>@tegan</p>
+                            <p>World Peace Builder</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="" alt="">
+                        <div>
+                            <p>@tegan</p>
+                            <p>World Peace Builder</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="" alt="">
+                        <div>
+                            <p>@tegan</p>
+                            <p>World Peace Builder</p>
+                        </div>
+                    </div>
+                </div>
+            </aside>   
         </section>
+       
     </main>
-    <aside class="announcements">
-        <div>
-            <h3>Announcements</h3>
-            <div>
-                <p>Site Maintenance</p>
-                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Necessitatibus porro id cum inventore officia quis provident doloribus ullam odio consequuntur.
-                </p>
-            </div>
-            <div>
-                <p>Site Maintenance</p>
-                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Necessitatibus porro id cum inventore officia quis provident doloribus ullam odio consequuntur.
-                </p>
-            </div>
-            <div>
-                <p>Site Maintenance</p>
-                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Necessitatibus porro id cum inventore officia quis provident doloribus ullam odio consequuntur.
-                </p>
-            </div>
-        </div>
-        <div>
-            <h3>Trending</h3>
-            <div>
-                <img src="" alt="">
-                <div>
-                    <p>@tegan</p>
-                    <p>World Peace Builder</p>
-                </div>
-            </div>
-            <div>
-                <img src="" alt="">
-                <div>
-                    <p>@tegan</p>
-                    <p>World Peace Builder</p>
-                </div>
-            </div>
-            <div>
-                <img src="" alt="">
-                <div>
-                    <p>@tegan</p>
-                    <p>World Peace Builder</p>
-                </div>
-            </div>
-            <div>
-                <img src="" alt="">
-                <div>
-                    <p>@tegan</p>
-                    <p>World Peace Builder</p>
-                </div>
-            </div>
-        </div>
-        
-    </aside>   
+    
   </body>
 </html>
