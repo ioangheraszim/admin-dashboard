@@ -235,13 +235,9 @@ button {
   width: 375px;
 }
 
-.announcements__content {
+.announcements__content:nth-last-child(n+2) {
     border-bottom: 1px solid var(--grey);
     padding: 1rem 0;
-}
-
-.announcements__content:not(:last-child) {
-    border: none;
 }
 
 .announcements__content-title {
